@@ -1,0 +1,12 @@
+id,name,bic,city,country/id
+res_bank_md_agroindbank,Moldova Agroindbank,AGRNMD2X,Chisinau,base.md
+res_bank_md_victoriabank,Victoriabank,VICBMD2X,Chisinau,base.md
+res_bank_md_moldindconbank,Moldindconbank,MOLDMD2X,Chisinau,base.md
+res_bank_md_mobiasbanca,Mobiasbanca OTP Group,MOBBMD22,Chisinau,base.md
+res_bank_md_bcr_chisinau,BCR Chisinau,BCRCMD2X,Chisinau,base.md
+res_bank_md_fincombank,FinComBank,FINCMD2X,Chisinau,base.md
+res_bank_md_eximbank,Eximbank,EXMMMD22,Chisinau,base.md
+res_bank_md_energbank,Energbank,ENEGMD2X,Chisinau,base.md
+res_bank_md_eurocreditbank,EuroCreditBank,ECBMMD2X,Chisinau,base.md
+res_bank_md_procredit,ProCredit Bank,PRCBMD22,Chisinau,base.md
+res_bank_md_national_bank,National Bank of Moldova,NBMDMD2X,Chisinau,base.md

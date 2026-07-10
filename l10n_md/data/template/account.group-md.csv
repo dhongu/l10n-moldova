@@ -1,0 +1,33 @@
+id,code_prefix_start,code_prefix_end,name
+group_11,11,11,Imobilizări necorporale
+group_12,12,12,"Imobilizări corporale, terenuri și resurse minerale"
+group_13,13,13,Active biologice imobilizate
+group_14,14,14,Investiții financiare pe termen lung
+group_15,15,15,Investiții imobiliare
+group_16,16,16,Creanțe și avansuri acordate pe termen lung
+group_17,17,17,Alte active imobilizate
+group_21,21,21,Stocuri
+group_22,22,22,Creanțe comerciale și calculate
+group_23,23,23,Alte creanțe curente
+group_24,24,24,Numerar
+group_25,25,25,Investiții financiare curente
+group_26,26,26,Alte active circulante
+group_31,31,31,"Capital social, neînregistrat și prime de capital"
+group_32,32,32,Rezerve
+group_33,33,33,Profit nerepartizat (pierdere neacoperită)
+group_34,34,34,Alte elemente de capital propriu
+group_35,35,35,Rezultat financiar total
+group_41,41,41,Datorii financiare pe termen lung
+group_42,42,42,Alte datorii pe termen lung
+group_51,51,51,Datorii financiare curente
+group_52,52,52,Datorii comerciale curente
+group_53,53,53,Datorii calculate curente
+group_54,54,54,Alte datorii curente
+group_61,61,61,Venituri din activitatea operațională
+group_62,62,62,Venituri din alte activități
+group_71,71,71,Cheltuieli ale activității operaționale
+group_72,72,72,Cheltuieli ale altor activități
+group_73,73,73,Cheltuieli privind impozitul pe venit
+group_81,81,81,Conturi de calculație
+group_82,82,82,Conturi de repartizare
+group_83,83,83,Alte conturi de gestiune

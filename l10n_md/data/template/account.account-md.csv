@@ -1,0 +1,157 @@
+id,code,name,account_type,reconcile
+pcg_111,111,Imobilizări necorporale în curs de execuție,asset_fixed,False
+pcg_112,112,Imobilizări necorporale în exploatare,asset_fixed,False
+pcg_113,113,Amortizarea imobilizărilor necorporale,asset_fixed,False
+pcg_114,114,Deprecierea imobilizărilor necorporale,asset_fixed,False
+pcg_115,115,Fond comercial pozitiv,asset_fixed,False
+pcg_116,116,Fond comercial negativ,asset_fixed,False
+pcg_117,117,Deprecierea fondului comercial pozitiv,asset_fixed,False
+pcg_121,121,Imobilizări corporale în curs de execuție,asset_fixed,False
+pcg_122,122,Terenuri,asset_fixed,False
+pcg_123,123,Mijloace fixe,asset_fixed,False
+pcg_124,124,Amortizarea mijloacelor fixe,asset_fixed,False
+pcg_125,125,Resurse minerale,asset_fixed,False
+pcg_126,126,Amortizarea și deprecierea resurselor minerale,asset_fixed,False
+pcg_127,127,Deprecierea imobilizărilor corporale în curs de execuție,asset_fixed,False
+pcg_128,128,Deprecierea terenurilor,asset_fixed,False
+pcg_129,129,Deprecierea mijloacelor fixe,asset_fixed,False
+pcg_131,131,Active biologice imobilizate în curs de execuție,asset_fixed,False
+pcg_132,132,Active biologice imobilizate în exploatare,asset_fixed,False
+pcg_133,133,Amortizarea și deprecierea activelor biologice imobilizate,asset_fixed,False
+pcg_141,141,Investiții financiare pe termen lung în părți neafiliate,asset_non_current,False
+pcg_142,142,Investiții financiare pe termen lung în părți afiliate,asset_non_current,False
+pcg_143,143,Deprecierea investițiilor financiare pe termen lung,asset_non_current,False
+pcg_151,151,Investiții imobiliare,asset_non_current,False
+pcg_152,152,Amortizarea și deprecierea investițiilor imobiliare,asset_non_current,False
+pcg_161,161,Creanțe pe termen lung,asset_non_current,True
+pcg_162,162,Creanțe ale părților afiliate pe termen lung,asset_non_current,True
+pcg_163,163,Avansuri acordate pe termen lung,asset_non_current,False
+pcg_171,171,Cheltuieli anticipate pe termen lung,asset_prepayments,False
+pcg_172,172,Alte active imobilizate,asset_non_current,False
+pcg_211,211,Materiale,asset_current,False
+pcg_212,212,Active biologice circulante,asset_current,False
+pcg_213,213,Obiecte de mică valoare și scurtă durată în stoc/exploatare,asset_current,False
+pcg_214,214,Uzura obiectelor de mică valoare și scurtă durată,asset_current,False
+pcg_215,215,Producția în curs de execuție,asset_current,False
+pcg_216,216,Produse,asset_current,False
+pcg_217,217,Mărfuri,asset_current,False
+pcg_218,218,Ajustări pentru deprecierea stocurilor,asset_current,False
+pcg_221,221,Creanțe comerciale,asset_receivable,True
+pcg_222,222,Corecții privind creanțele compromise,asset_current,False
+pcg_223,223,Creanțe ale părților afiliate,asset_receivable,True
+pcg_224,224,Avansuri acordate curente,asset_current,False
+pcg_225,225,Creanțe ale bugetului,asset_current,False
+pcg_226,226,Creanțe ale personalului,asset_current,False
+pcg_231,231,Creanțe privind veniturile din utilizarea de către terți a activelor entității,asset_current,False
+pcg_232,232,Creanțe preliminate,asset_current,False
+pcg_233,233,Creanțe curente privind asigurările,asset_current,False
+pcg_234,234,Alte creanțe curente,asset_current,False
+pcg_241,241,Casa,asset_cash,False
+pcg_242,242,Conturi curente în moneda națională,asset_cash,False
+pcg_243,243,Conturi curente în valută străină,asset_cash,False
+pcg_244,244,Alte conturi bancare,asset_cash,False
+pcg_245,245,Transferuri de numerar în expediție,asset_cash,False
+pcg_246,246,Documente bănești,asset_cash,False
+pcg_251,251,Investiții financiare curente în părți neafiliate,asset_current,False
+pcg_252,252,Investiții financiare curente în părți afiliate,asset_current,False
+pcg_253,253,Provizioane pentru pierderi din împrumuturi neachitate la termen,asset_current,False
+pcg_254,254,Ajustări pentru deprecierea investițiilor financiare curente,asset_current,False
+pcg_261,261,Cheltuieli anticipate curente,asset_prepayments,False
+pcg_262,262,Alte active circulante,asset_current,False
+pcg_311,311,Capital social,equity,False
+pcg_313,313,Capital nevărsat,equity,False
+pcg_314,314,Capital neînregistrat,equity,False
+pcg_315,315,Capital retras,equity,False
+pcg_316,316,Patrimoniul primit de la stat cu drept de proprietate,equity,False
+pcg_317,317,Prime de capital,equity,False
+pcg_321,321,Capital de rezervă,equity,False
+pcg_322,322,Rezerve statutare,equity,False
+pcg_323,323,Alte rezerve,equity,False
+pcg_331,331,Corecții ale rezultatelor anilor precedenți,equity,False
+pcg_332,332,Profit nerepartizat (pierdere neacoperită) al anilor precedenți,equity,False
+pcg_333,333,Profit net (pierdere netă) al perioadei de gestiune,equity_unaffected,False
+pcg_334,334,Profit utilizat al perioadei de gestiune,equity,False
+pcg_335,335,Rezultat din tranziția la noile reglementări contabile,equity,False
+pcg_336,336,Excedent net (deficit net) al perioadei de gestiune,equity,False
+pcg_341,341,Fonduri,equity,False
+pcg_342,342,Subvenții aferente activelor entităților cu proprietate publică,equity,False
+pcg_343,343,Rezerve din reevaluare,equity,False
+pcg_344,344,Alte elemente de capital propriu,equity,False
+pcg_351,351,Rezultat financiar total,equity_unaffected,False
+pcg_411,411,Credite bancare pe termen lung,liability_non_current,False
+pcg_412,412,Împrumuturi pe termen lung,liability_non_current,False
+pcg_414,414,Datorii privind depunerile de economii pe termen lung ale membrilor asociațiilor de economii și împrumut,liability_non_current,False
+pcg_421,421,Datorii comerciale pe termen lung,liability_non_current,True
+pcg_422,422,Datorii față de părțile afiliate pe termen lung,liability_non_current,False
+pcg_423,423,Avansuri primite pe termen lung,liability_non_current,False
+pcg_424,424,Venituri anticipate pe termen lung,liability_non_current,False
+pcg_425,425,Finanțări și încasări cu destinație specială pe termen lung,liability_non_current,False
+pcg_426,426,Provizioane pe termen lung,liability_non_current,False
+pcg_427,427,Datorii pe termen lung privind bunurile primite în gestiune economică,liability_non_current,False
+pcg_428,428,Alte datorii pe termen lung,liability_non_current,False
+pcg_511,511,Credite bancare pe termen scurt,liability_current,False
+pcg_512,512,Împrumuturi pe termen scurt,liability_current,False
+pcg_513,513,Datorii privind depunerile de economii pe termen scurt ale membrilor asociațiilor de economii și împrumut,liability_current,False
+pcg_521,521,Datorii comerciale curente,liability_payable,True
+pcg_522,522,Datorii curente față de părțile afiliate,liability_payable,True
+pcg_523,523,Avansuri primite curente,liability_current,False
+pcg_531,531,Datorii față de personal privind retribuirea muncii,liability_current,False
+pcg_532,532,Datorii față de personal privind alte operații,liability_current,False
+pcg_533,533,Datorii privind asigurările sociale și medicale,liability_current,False
+pcg_534,534,Datorii față de buget,liability_current,False
+pcg_535,535,Venituri anticipate curente,liability_current,False
+pcg_536,536,Datorii față de proprietari,liability_current,False
+pcg_537,537,Finanțări și încasări cu destinație specială curente,liability_current,False
+pcg_538,538,Provizioane curente,liability_current,False
+pcg_541,541,Datorii preliminate,liability_current,False
+pcg_542,542,Datorii privind asigurarea bunurilor și a persoanelor,liability_current,False
+pcg_543,543,Datorii curente privind bunurile primite în gestiune economică,liability_current,False
+pcg_544,544,Alte datorii curente,liability_current,False
+pcg_611,611,Venituri din vânzări,income,False
+pcg_612,612,Alte venituri din activitatea operațională,income_other,False
+pcg_613,613,Venituri din dobânzile aferente împrumuturilor acordate,income_other,False
+pcg_616,616,Venituri aferente mijloacelor cu destinație specială,income_other,False
+pcg_617,617,Alte venituri (cu excepția veniturilor din activitatea economică),income_other,False
+pcg_618,618,Venituri din activitatea economică,income,False
+pcg_621,621,Venituri din operațiuni cu active imobilizate,income_other,False
+pcg_622,622,Venituri financiare,income_other,False
+pcg_623,623,Venituri excepționale,income_other,False
+pcg_711,711,Costul vânzărilor,expense_direct_cost,False
+pcg_712,712,Cheltuieli de distribuire,expense,False
+pcg_713,713,Cheltuieli administrative,expense,False
+pcg_714,714,Alte cheltuieli din activitatea operațională,expense,False
+pcg_715,715,Cheltuieli aferente dobânzilor calculate,expense,False
+pcg_716,716,Cheltuieli aferente mijloacelor cu destinație specială,expense,False
+pcg_717,717,Alte cheltuieli (cu excepția cheltuielilor din activitatea economică),expense,False
+pcg_718,718,Cheltuieli din activitatea economică,expense,False
+pcg_721,721,Cheltuieli cu active imobilizate,expense,False
+pcg_722,722,Cheltuieli financiare,expense,False
+pcg_723,723,Cheltuieli excepționale,expense,False
+pcg_731,731,Cheltuieli privind impozitul pe venit,expense,False
+pcg_811,811,Activități de bază,off_balance,False
+pcg_812,812,Activități auxiliare,off_balance,False
+pcg_821,821,Costuri indirecte de producție,off_balance,False
+pcg_822,822,Costuri indirecte aferente contractelor de construcție,off_balance,False
+pcg_823,823,Costuri de regie aferente contractelor de construcție,off_balance,False
+pcg_824,824,Alte costuri repartizabile,off_balance,False
+pcg_831,831,Adaos comercial,off_balance,False
+pcg_832,832,Încasări din vânzarea bunurilor în numerar,off_balance,False
+pcg_833,833,Returnarea și reducerea prețurilor la bunurile vândute,off_balance,False
+pcg_834,834,Costuri aferente bunurilor transmise spre prelucrare terților,off_balance,False
+pcg_835,835,Producții și unități de deservire,off_balance,False
+pcg_836,836,Costuri refacturate,off_balance,False
+pcg_911,911,Imobilizări corporale primite în leasing operațional,off_balance,False
+pcg_912,912,Bunuri primite pentru montare,off_balance,False
+pcg_913,913,Imobilizări corporale transmise în leasing financiar,off_balance,False
+pcg_914,914,Bunuri primite în custodie,off_balance,False
+pcg_915,915,Bunuri primite spre prelucrare sau reparare,off_balance,False
+pcg_916,916,Bunuri primite în baza contractelor de comision,off_balance,False
+pcg_917,917,Bunuri obținute din materialele prelucrate ale terților,off_balance,False
+pcg_918,918,Formulare cu regim special,off_balance,False
+pcg_919,919,Creanțe compromise decontate,off_balance,False
+pcg_920,920,Creanțe contingente,off_balance,False
+pcg_921,921,Datorii contingente,off_balance,False
+pcg_922,922,Garanții acordate,off_balance,False
+pcg_923,923,Garanții primite,off_balance,False
+pcg_924,924,Pierderi fiscale,off_balance,False
+pcg_925,925,Facilități fiscale,off_balance,False
