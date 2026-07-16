@@ -1,4 +1,4 @@
-id,name,note
-immediate,La livrare,Plată la livrare
-advance,Avans,Avans 100%
-net30,30 zile,Plată în termen de 30 de zile
+"id","name","note","line_ids/value","line_ids/value_amount","line_ids/nb_days"
+"immediate","La livrare","Plată la livrare","percent","100","0"
+"advance","Avans","Avans 100%","percent","100","0"
+"net30","30 zile","Plată în termen de 30 de zile","percent","100","30"

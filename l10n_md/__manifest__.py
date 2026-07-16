@@ -24,13 +24,8 @@ asigurare medicală 9%) sunt conform Codului Fiscal al Republicii Moldova.
     'data': [
         'views/res_company_view.xml',
         'data/res.bank.csv',
-        'data/template/account.group-md.csv',
-        'data/template/account.account-md.csv',
-        'data/template/account.tax.group-md.csv',
-        'data/template/account.tax-md.csv',
-        'data/template/account.journal-md.csv',
-        'data/template/account.payment.term-md.csv',
-        'data/template/account.fiscal.position-md.csv',
+        # CSV-urile din data/template/ NU se listează aici — le încarcă
+        # mecanismul de chart template (models/template_md.py, @template('md')).
     ],
     'demo': [
         'demo/demo_company.xml',

@@ -1,8 +1,25 @@
-id,name,amount,type_tax_use,tax_group_id/id,description
-vat_20,TVA 20%,20.0,sale,vat,Cota standard de TVA
-vat_8,TVA 8%,8.0,sale,vat,Cotă redusă de TVA
-vat_0,TVA 0%,0.0,sale,vat,TVA export
-profit_tax,Impozit pe profit,12.0,none,profit,Impozit pe profit
-social_tax,Contribuții sociale,24.0,none,social,Asigurări sociale de stat
-medical_tax,Asigurare medicală,9.0,none,medical,Asigurări medicale obligatorii
-local_tax,Impozit local,0.0,none,local,Taxe și impozite locale
+"id","name","amount","amount_type","type_tax_use","tax_group_id","description","repartition_line_ids/repartition_type","repartition_line_ids/document_type","repartition_line_ids/account_id"
+"vat_20","TVA 20%","20.0","percent","sale","vat","Cota standard de TVA","base","invoice",""
+"","","","","","","","tax","invoice","pcg_534"
+"","","","","","","","base","refund",""
+"","","","","","","","tax","refund","pcg_534"
+"vat_8","TVA 8%","8.0","percent","sale","vat","Cotă redusă de TVA","base","invoice",""
+"","","","","","","","tax","invoice","pcg_534"
+"","","","","","","","base","refund",""
+"","","","","","","","tax","refund","pcg_534"
+"vat_0","TVA 0%","0.0","percent","sale","vat","TVA export","base","invoice",""
+"","","","","","","","tax","invoice",""
+"","","","","","","","base","refund",""
+"","","","","","","","tax","refund",""
+"vat_20_p","TVA 20% achiziții","20.0","percent","purchase","vat","Cota standard de TVA la achiziții","base","invoice",""
+"","","","","","","","tax","invoice","pcg_534"
+"","","","","","","","base","refund",""
+"","","","","","","","tax","refund","pcg_534"
+"vat_8_p","TVA 8% achiziții","8.0","percent","purchase","vat","Cotă redusă de TVA la achiziții","base","invoice",""
+"","","","","","","","tax","invoice","pcg_534"
+"","","","","","","","base","refund",""
+"","","","","","","","tax","refund","pcg_534"
+"vat_0_p","TVA 0% achiziții","0.0","percent","purchase","vat","TVA 0% la achiziții","base","invoice",""
+"","","","","","","","tax","invoice",""
+"","","","","","","","base","refund",""
+"","","","","","","","tax","refund",""
