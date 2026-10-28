@@ -1,0 +1,6 @@
+id,name,auto_apply,note
+md_export,Export,True,"Operațiuni de export, cota TVA 0%"
+md_internal,Piața internă,True,Operațiuni pe teritoriul Republicii Moldova
+md_vat_exempt,Fără TVA,False,"Operațiuni scutite de TVA"
+md_nonresident,Nerezidenți,False,Operațiuni cu nerezidenți
+md_privilege,Regim preferențial,False,Regimuri fiscale preferențiale

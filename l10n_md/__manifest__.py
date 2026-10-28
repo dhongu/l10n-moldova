@@ -1,0 +1,30 @@
+{
+    'name': 'Moldova - Accounting',
+    'website': 'https://mf.gov.md/',
+    'author': 'Terrabit',
+    'icon': '/account/static/description/l10n.png',
+    'countries': ['md'],
+    'category': 'Accounting/Localizations/Account Charts',
+    'version': '20.0.1.0.0',
+    'depends': ["account"],
+    'auto_install': False,
+    'description': """
+Modul de localizare contabilă pentru Republica Moldova.
+
+Planul de conturi (conturi de gradul I) e extras din Planul general de conturi
+contabile aprobat prin Ordinul Ministerului Finanțelor nr. 119 din 06.08.2013
+(https://mf.gov.md/sites/default/files/legislatie/Planul%20general%20de%20conturi%20contabile.pdf).
+
+Cotele de taxe (TVA 20%/8%/0%, impozit pe profit 12%, asigurări sociale 24%,
+asigurare medicală 9%) sunt conform Codului Fiscal al Republicii Moldova.
+""",
+    'data': [
+        'views/res_company_view.xml',
+        # CSV-urile din data/template/ NU se listează aici — le încarcă
+        # mecanismul de chart template (models/template_md.py, @template('md')).
+    ],
+    'demo': [
+        'demo/demo_company.xml',
+    ],
+    'license': 'LGPL-3',
+}

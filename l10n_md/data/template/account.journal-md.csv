@@ -1,0 +1,5 @@
+id,code,name,type
+cash,CASH,Casa,cash
+bank,BANK,Bancă,bank
+sale,SALE,Vânzări,sale
+purchase,PURCHASE,Achiziții,purchase
