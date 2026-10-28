@@ -5,11 +5,8 @@
     'icon': '/account/static/description/l10n.png',
     'countries': ['md'],
     'category': 'Accounting/Localizations/Account Charts',
-    'version': '19.0.1.0.0',
-    'depends': [
-        'account',
-        'base_vat',
-    ],
+    'version': '20.0.1.0.0',
+    'depends': ["account"],
     'auto_install': False,
     'description': """
 Modul de localizare contabilă pentru Republica Moldova.
@@ -23,7 +20,6 @@ asigurare medicală 9%) sunt conform Codului Fiscal al Republicii Moldova.
 """,
     'data': [
         'views/res_company_view.xml',
-        'data/res.bank.csv',
         # CSV-urile din data/template/ NU se listează aici — le încarcă
         # mecanismul de chart template (models/template_md.py, @template('md')).
     ],

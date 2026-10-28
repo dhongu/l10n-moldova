@@ -1,5 +1,5 @@
 # Șablonul planului de conturi MD (Ordinul MF nr. 119/2013), pe sistemul de
-# chart template Odoo 19 — CSV-urile din data/template/ se încarcă automat
+# chart template Odoo — CSV-urile din data/template/ se încarcă automat
 # pentru codul 'md' declarat aici.
 from odoo import models
 from odoo.addons.account.models.chart_template import template
