@@ -1,6 +1,6 @@
 {
     'name': 'Moldova - Accounting',
-    'website': 'https://mf.gov.md/',
+    'website': 'https://www.terrabit.ro',
     'author': 'Terrabit',
     'icon': '/account/static/description/l10n.png',
     'countries': ['md'],
