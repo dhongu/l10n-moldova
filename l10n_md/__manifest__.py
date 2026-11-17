@@ -31,4 +31,6 @@ asigurare medicală 9%) sunt conform Codului Fiscal al Republicii Moldova.
         'demo/demo_company.xml',
     ],
     'license': 'LGPL-3',
+    # no consultant sheet yet: the chart of accounts gets one when it is completed
+    'consultant_sheet': 'none',
 }
