@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record id="state_md_an" model="res.country.state">
+        <field name="country_id" ref="base.md" />
+        <field name="code">AN</field>
+        <field name="name">Anenii Noi</field>
+    </record>
+    <record id="state_md_ba" model="res.country.state">
+        <field name="country_id" ref="base.md" />
+        <field name="code">BA</field>
+        <field name="name">Bălți</field>
+    </record>
+    <record id="state_md_bd" model="res.country.state">
+        <field name="country_id" ref="base.md" />
+        <field name="code">BD</field>
+        <field name="name">Bender</field>
+    </record>
+    <record id="state_md_br" model="res.country.state">
+        <field name="country_id" ref="base.md" />
+        <field name="code">BR</field>
+        <field name="name">Briceni</field>
+    </record>
+    <record id="state_md_bs" model="res.country.state">
+        <field name="country_id" ref="base.md" />
+        <field name="code">BS</field>
+        <field name="name">Basarabeasca</field>
+    </record>
+    <record id="state_md_ca" model="res.country.state">
+        <field name="country_id" ref="base.md" />
+        <field name="code">CA</field>
+        <field name="name">Cahul</field>
+    </record>
+    <record id="state_md_cl" model="res.country.state">
+        <field name="country_id" ref="base.md" />
+        <field name="code">CL</field>
+        <field name="name">Călărași</field>
+    </record>
+    <record id="state_md_cm" model="res.country.state">
+        <field name="country_id" ref="base.md" />
+        <field name="code">CM</field>
+        <field name="name">Cimișlia</field>
+    </record>
+    <record id="state_md_cr" model="res.country.state">
+        <field name="country_id" ref="base.md" />
+        <field name="code">CR</field>
+        <field name="name">Criuleni</field>
+    </record>
+    <record id="state_md_cs" model="res.country.state">
+        <field name="country_id" ref="base.md" />
+        <field name="code">CS</field>
+        <field name="name">Căușeni</field>
+    </record>
+    <record id="state_md_ct" model="res.country.state">
+        <field name="country_id" ref="base.md" />
+        <field name="code">CT</field>
+        <field name="name">Cantemir</field>
+    </record>
+    <record id="state_md_cu" model="res.country.state">
+        <field name="country_id" ref="base.md" />
+        <field name="code">CU</field>
+        <field name="name">Chișinău</field>
+    </record>
+    <record id="state_md_do" model="res.country.state">
+        <field name="country_id" ref="base.md" />
+        <field name="code">DO</field>
+        <field name="name">Dondușeni</field>
+    </record>
+    <record id="state_md_dr" model="res.country.state">
+        <field name="country_id" ref="base.md" />
+        <field name="code">DR</field>
+        <field name="name">Drochia</field>
+    </record>
+    <record id="state_md_du" model="res.country.state">
+        <field name="country_id" ref="base.md" />
+        <field name="code">DU</field>
+        <field name="name">Dubăsari</field>
+    </record>
+    <record id="state_md_ed" model="res.country.state">
+        <field name="country_id" ref="base.md" />
+        <field name="code">ED</field>
+        <field name="name">Edineț</field>
+    </record>
+    <record id="state_md_fa" model="res.country.state">
+        <field name="country_id" ref="base.md" />
+        <field name="code">FA</field>
+        <field name="name">Fălești</field>
+    </record>
+    <record id="state_md_fl" model="res.country.state">
+        <field name="country_id" ref="base.md" />
+        <field name="code">FL</field>
+        <field name="name">Florești</field>
+    </record>
+    <record id="state_md_ga" model="res.country.state">
+        <field name="country_id" ref="base.md" />
+        <field name="code">GA</field>
+        <field name="name">Găgăuzia</field>
+    </record>
+    <record id="state_md_gl" model="res.country.state">
+        <field name="country_id" ref="base.md" />
+        <field name="code">GL</field>
+        <field name="name">Glodeni</field>
+    </record>
+    <record id="state_md_hi" model="res.country.state">
+        <field name="country_id" ref="base.md" />
+        <field name="code">HI</field>
+        <field name="name">Hîncești</field>
+    </record>
+    <record id="state_md_ia" model="res.country.state">
+        <field name="country_id" ref="base.md" />
+        <field name="code">IA</field>
+        <field name="name">Ialoveni</field>
+    </record>
+    <record id="state_md_le" model="res.country.state">
+        <field name="country_id" ref="base.md" />
+        <field name="code">LE</field>
+        <field name="name">Leova</field>
+    </record>
+    <record id="state_md_ni" model="res.country.state">
+        <field name="country_id" ref="base.md" />
+        <field name="code">NI</field>
+        <field name="name">Nisporeni</field>
+    </record>
+    <record id="state_md_oc" model="res.country.state">
+        <field name="country_id" ref="base.md" />
+        <field name="code">OC</field>
+        <field name="name">Ocnița</field>
+    </record>
+    <record id="state_md_or" model="res.country.state">
+        <field name="country_id" ref="base.md" />
+        <field name="code">OR</field>
+        <field name="name">Orhei</field>
+    </record>
+    <record id="state_md_re" model="res.country.state">
+        <field name="country_id" ref="base.md" />
+        <field name="code">RE</field>
+        <field name="name">Rezina</field>
+    </record>
+    <record id="state_md_ri" model="res.country.state">
+        <field name="country_id" ref="base.md" />
+        <field name="code">RI</field>
+        <field name="name">Rîșcani</field>
+    </record>
+    <record id="state_md_sd" model="res.country.state">
+        <field name="country_id" ref="base.md" />
+        <field name="code">SD</field>
+        <field name="name">Șoldănești</field>
+    </record>
+    <record id="state_md_si" model="res.country.state">
+        <field name="country_id" ref="base.md" />
+        <field name="code">SI</field>
+        <field name="name">Sîngerei</field>
+    </record>
+    <record id="state_md_sn" model="res.country.state">
+        <field name="country_id" ref="base.md" />
+        <field name="code">SN</field>
+        <field name="name">Stînga Nistrului</field>
+    </record>
+    <record id="state_md_so" model="res.country.state">
+        <field name="country_id" ref="base.md" />
+        <field name="code">SO</field>
+        <field name="name">Soroca</field>
+    </record>
+    <record id="state_md_st" model="res.country.state">
+        <field name="country_id" ref="base.md" />
+        <field name="code">ST</field>
+        <field name="name">Strășeni</field>
+    </record>
+    <record id="state_md_sv" model="res.country.state">
+        <field name="country_id" ref="base.md" />
+        <field name="code">SV</field>
+        <field name="name">Ștefan Vodă</field>
+    </record>
+    <record id="state_md_ta" model="res.country.state">
+        <field name="country_id" ref="base.md" />
+        <field name="code">TA</field>
+        <field name="name">Taraclia</field>
+    </record>
+    <record id="state_md_te" model="res.country.state">
+        <field name="country_id" ref="base.md" />
+        <field name="code">TE</field>
+        <field name="name">Telenești</field>
+    </record>
+    <record id="state_md_un" model="res.country.state">
+        <field name="country_id" ref="base.md" />
+        <field name="code">UN</field>
+        <field name="name">Ungheni</field>
+    </record>
+</odoo>
