@@ -1,0 +1,10 @@
+{
+  "title": "Moldova - City from ZIP",
+  "summary": "City and district from the Moldovan postal code",
+  "edition": "community",
+  "features": [
+    "Moldovan localities from GeoNames",
+    "City and district from the cod poștal",
+    "Bulk link of existing contacts"
+  ]
+}
