@@ -4,7 +4,7 @@
   "edition": "community",
   "features": [
     "Moldovan localities from GeoNames",
-    "City and district from the cod poștal",
+    "City and district from the postal code",
     "Bulk link of existing contacts"
   ]
 }
