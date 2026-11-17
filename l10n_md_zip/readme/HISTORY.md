@@ -6,3 +6,4 @@
   ISO 3166-2:MD as states of Moldova.
 - City and district filled in from the postal code on Moldovan addresses; action and scheduled
   action to link the existing contacts.
+- Consultant sheet (readme/FISA_CONSULTANT.md) and screenshots, in English.

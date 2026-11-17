@@ -70,6 +70,15 @@ class TestCityFromZip(TransactionCase):
         self.assertEqual(partner_form.zip, "MD-3100")
         self.assertEqual(partner_form.state_id, self.state_balti)
 
+    def test_onchange_zip_already_linked(self):
+        """CA3: retyping the postal code without MD- on a linked contact writes it back as MD-NNNN."""
+        partner = self._create_partner()
+        partner.l10n_md_fix_city_from_zip()
+        partner_form = Form(partner)
+        partner_form.zip = "3100"
+        self.assertEqual(partner_form.zip, "MD-3100")
+        self.assertEqual(partner_form.city_id, self._city("MD-3100", "Balti"))
+
     def test_onchange_shared_zip(self):
         """CA4: on the form, a shared postal code fills in only the state."""
         partner_form = Form(self.Partner)

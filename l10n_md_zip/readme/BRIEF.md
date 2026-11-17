@@ -16,7 +16,7 @@ modules do for their country.
 ## Who operates
 
 Whoever creates or edits contacts (sales, purchase, accounting), with the usual contact rights.
-The action on the existing contacts is for *Contacts / Administrator* (`base.group_partner_manager`).
+The action on the existing contacts is for *Contact: Creation* (`base.group_partner_manager`).
 
 ## Scope
 

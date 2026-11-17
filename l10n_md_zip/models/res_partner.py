@@ -60,6 +60,7 @@ class ResPartner(models.Model):
         if self.country_id.code != "MD" or not self.zip:
             return
         if self.city_id.zipcode == _normalize_zip(self.zip):
+            self.zip = self.city_id.zipcode
             return
         city, state = self._l10n_md_city_from_zip(self.zip, self.city)
         if city:

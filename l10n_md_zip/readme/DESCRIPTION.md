@@ -7,9 +7,10 @@ district of Moldovan addresses from the postal code.
   comes from [GeoNames](https://www.geonames.org) (Creative Commons Attribution 4.0).
 - Moldova is set to *enforce cities*: the city of a Moldovan address is chosen from the list.
 - On the contact form, typing the postal code (cod poștal) of a Moldovan address sets the city and
-  the district. The postal code can be typed as `MD-2001`, `MD2001` or `2001`: it is written back
-  as `MD-2001`. A postal code shared by several localities sets only the district; the city name,
-  when it matches one of them (without diacritics and case), picks the locality.
+  the district. The postal code can be typed as `MD-3100`, `MD3100` or `3100`: when the locality
+  is identified, it is written back as `MD-3100`. A postal code shared by several localities sets only the district, when they are
+  all in the same district; the city name, when it matches one of them (without diacritics and
+  case), picks the locality.
 - The action *Moldova: set city from ZIP* on contacts links the Moldovan contacts to the city of
   their postal code and fills in the district.
 - At install, the Moldovan contacts are linked: directly on a small database, by the scheduled

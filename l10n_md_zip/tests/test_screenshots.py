@@ -52,7 +52,8 @@ def type_zip(zip_code, open_city=False):
     script = """
 async () => {
     const style = document.createElement("style");
-    style.textContent = ".o_form_view [data-fise-badge] { left: -30px !important; }";
+    style.textContent = ".o_form_view [data-fise-badge] { left: -30px !important; }"
+        + " .o-autocomplete--dropdown-menu { min-width: 280px !important; }";
     document.head.appendChild(style);
     const input = document.querySelector("div[name='zip'] input");
     input.focus();
