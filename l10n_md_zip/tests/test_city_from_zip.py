@@ -8,9 +8,12 @@ from psycopg2 import errorcodes
 
 from odoo.exceptions import ValidationError
 from odoo.tests import Form, TransactionCase, tagged
+from odoo.tools import mute_logger
 
 from odoo.addons.l10n_md_zip import hooks
 from odoo.addons.l10n_md_zip.models.res_partner import RELINK_PARAM
+
+LOGGER = "odoo.addons.l10n_md_zip.models.res_partner"
 
 
 class _LockNotAvailable(psycopg2.Error):
@@ -195,7 +198,7 @@ class TestCityFromZip(TransactionCase):
         for error in (ValidationError("rejected"), _CheckViolation("rejected")):
             with self.subTest(error=type(error).__name__):
                 (good | bad).write({"city_id": False})
-                with self._patch_write_failing_on(bad, error):
+                with self._patch_write_failing_on(bad, error), mute_logger(LOGGER):
                     fixed = (good | bad).l10n_md_fix_city_from_zip()
                 self.assertEqual(fixed, good)
                 self.assertEqual(good.city_id, self._city("MD-3100", "Balti"))
