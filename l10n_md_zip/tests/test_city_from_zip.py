@@ -3,10 +3,22 @@
 
 from unittest.mock import patch
 
+import psycopg2
+from psycopg2 import errorcodes
+
+from odoo.exceptions import ValidationError
 from odoo.tests import Form, TransactionCase, tagged
 
 from odoo.addons.l10n_md_zip import hooks
 from odoo.addons.l10n_md_zip.models.res_partner import RELINK_PARAM
+
+
+class _LockNotAvailable(psycopg2.Error):
+    pgcode = errorcodes.LOCK_NOT_AVAILABLE
+
+
+class _CheckViolation(psycopg2.Error):
+    pgcode = errorcodes.CHECK_VIOLATION
 
 
 @tagged("post_install", "-at_install")
@@ -163,3 +175,35 @@ class TestCityFromZip(TransactionCase):
         with patch.object(hooks, "RELINK_BATCH", 0):
             hooks.post_init_hook(self.env)
         self.assertTrue(cron.active)
+
+    def _patch_write_failing_on(self, failing, error):
+        """Make ``write`` raise ``error`` on any recordset that contains ``failing``."""
+        partner_model = type(self.Partner)
+        original_write = partner_model.write
+
+        def write(records, vals):
+            if failing in records:
+                raise error
+            return original_write(records, vals)
+
+        return patch.object(partner_model, "write", write)
+
+    def test_write_error_skips_only_that_contact(self):
+        """A contact rejected by a constraint of another module does not stop the others."""
+        good = self._create_partner("Test Partner Good")
+        bad = self._create_partner("Test Partner Bad")
+        for error in (ValidationError("rejected"), _CheckViolation("rejected")):
+            with self.subTest(error=type(error).__name__):
+                (good | bad).write({"city_id": False})
+                with self._patch_write_failing_on(bad, error):
+                    fixed = (good | bad).l10n_md_fix_city_from_zip()
+                self.assertEqual(fixed, good)
+                self.assertEqual(good.city_id, self._city("MD-3100", "Balti"))
+                self.assertFalse(bad.city_id)
+
+    def test_write_concurrency_error_is_raised(self):
+        """A lock error is raised again, so that the whole batch is retried."""
+        partner = self._create_partner()
+        partner.city_id = False
+        with self._patch_write_failing_on(partner, _LockNotAvailable("locked")), self.assertRaises(_LockNotAvailable):
+            partner.l10n_md_fix_city_from_zip()
