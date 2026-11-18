@@ -1,6 +1,6 @@
 {
     'name': 'Moldova - Accounting',
-    'website': 'https://mf.gov.md/',
+    'website': 'https://www.terrabit.ro',
     'author': 'Terrabit',
     'icon': '/account/static/description/l10n.png',
     'countries': ['md'],
@@ -27,4 +27,6 @@ asigurare medicală 9%) sunt conform Codului Fiscal al Republicii Moldova.
         'demo/demo_company.xml',
     ],
     'license': 'LGPL-3',
+    # no consultant sheet yet: the chart of accounts gets one when it is completed
+    'consultant_sheet': 'none',
 }
